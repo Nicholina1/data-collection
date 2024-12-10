@@ -39,8 +39,8 @@ The JavaScript and CSS files were not loading due to incorrect relative paths in
 Solution: Verified and corrected the file paths (e.g., ensuring script.js and styles.css were in the same directory as index.html).
 
 ## 3. Challenge: Caching Issues
-Updated versions of the files weren't reflecting immediately after making changes.
-***Solution: Cleared the browser cache and enabled versioning on the S3 bucket to track and update changes effectively.
+Updated versions of the files weren't reflecting immediately after making changes.  
+Solution: Cleared the browser cache and enabled versioning on the S3 bucket to track and update changes effectively.
 
 # OBSERVATIONS
 1. AWS S3 is simple yet powerful for hosting static websites, but its default security settings require careful attention.
