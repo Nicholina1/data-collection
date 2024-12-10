@@ -5,21 +5,21 @@ This project involved hosting a static website (index.html, styles.css, and scri
 
 ## STEPS TO HOSTING THE WEBSITE
 1. ### Prepare the Website Files:
-** Created index.html, styles.css, and script.js files.
+** Created index.html, styles.css, and script.js files.  
 ** Verified the functionality locally by opening index.html in a browser.
    
 2. ### Set Up an AWS S3 Bucket:
-** Logged into the AWS Management Console.
-** Created a new S3 bucket with a unique name (datacolbucket).
+** Logged into the AWS Management Console.  
+** Created a new S3 bucket with a unique name (datacolbucket).  
 ** Selected the "Block Public Access settings" option and unchecked "Block all public access" to allow public hosting.
    
 3. ### Upload Website Files:
-** Navigated to the Objects tab in the S3 bucket.
+** Navigated to the Objects tab in the S3 bucket.  
 ** Uploaded the index.html, styles.css, and script.js files.
    
 4. ### Enable Static Website Hosting:
-** Went to the Properties tab of the bucket.
-** Enabled Static Website Hosting.
+** Went to the Properties tab of the bucket.  
+** Enabled Static Website Hosting.  
 ** Set the index document to index.html.
    
 5. ### Update Bucket Policy for Public Access:
@@ -31,11 +31,11 @@ This project involved hosting a static website (index.html, styles.css, and scri
 # CHALLENGES AND HOW I OVERCAME THEM  
 
 ## 1. Challenge: Public Access Restrictions
-AWS S3 blocks public access by default, which prevented the website from being accessible initially.
+AWS S3 blocks public access by default, which prevented the website from being accessible initially.  
 Solution: Updated the bucket policy and ensured the Block Public Access settings were correctly configured.
 
 ## 2. Challenge: Incorrect File Paths
-The JavaScript and CSS files were not loading due to incorrect relative paths in the index.html.
+The JavaScript and CSS files were not loading due to incorrect relative paths in the index.html.  
 Solution: Verified and corrected the file paths (e.g., ensuring script.js and styles.css were in the same directory as index.html).
 
 ## 3. Challenge: Caching Issues
